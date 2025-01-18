@@ -3,17 +3,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: min(20px,0px);
 }
 .navbar .logo{
-    width: 150px;
-    height: 50px;
+    /* width: 150px; */
+    width: min(150px, 11.3vw);
+    height: 2.3vw;
 }
 .navbar-menu{
     display: flex;
     list-style: none;
     gap: 20px;
     color: #49557e;
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: 20px;
 }
 .navbar-right{
     display: flex;
