@@ -54,7 +54,7 @@ import play_store from "./play_store-B2tFv0Hy.png";
 import linkedin_icon from "./linkedin.png";
 import twitter_icon from "./x.png";
 import facebook_icon from './facebook.png'
-// import cross_icon from './'
+import cross_icon from './cross.png'
 // import selector_icon from './'
 // import profile_icon from './'
 // import logout_icon from './'
@@ -75,7 +75,7 @@ export const assets = {
   linkedin_icon,
   twitter_icon,
   facebook_icon,
-  // cross_icon,
+  cross_icon,
   // selector_icon,
   // profile_icon,
   // logout_icon,
