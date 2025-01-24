@@ -3,11 +3,10 @@ import "./List.css";
 import axios from "axios";
 import { useEffect, useState } from "react";
 
-const List = () => {
-  const url = "http://localhost:4000";
+const List = ({url}) => {
+  // const url = "http://localhost:4000";
 
   const [list, setList] = useState([]);
-  // const [remove, setRemove] = useState(false);
 
   const removeFood = async (foodId) => {
     console.log(foodId);

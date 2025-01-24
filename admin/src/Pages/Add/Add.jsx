@@ -4,8 +4,8 @@ import { assets } from "../../assets/assets";
 import axios from "axios";
 import { toast } from "react-toastify";
 
-const Add = () => {
-  const url = "http://localhost:4000";
+const Add = ({url}) => {
+  // const url = "http://localhost:4000";
 
   const [image, setImage] = React.useState(false);
   const [data, setData] = React.useState({
@@ -49,6 +49,7 @@ const Add = () => {
       });
       
       setImage(false);
+      setImagePreview(null);
       toast.success(response.data.message)
     } else {
       toast.error(response.data.message)
